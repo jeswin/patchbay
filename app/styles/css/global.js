@@ -14,7 +14,8 @@ body {
   font-family: helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4;
-  color: #222;
+  color: #ccc;
+  background: #111;
 }
 
 * {
