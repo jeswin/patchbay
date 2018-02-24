@@ -16,7 +16,7 @@ Scroller {
 
     section.content {
       div {
-        border-bottom: solid 1px gainsboro
+        border-bottom: solid 1px #333
       }
     }
   }

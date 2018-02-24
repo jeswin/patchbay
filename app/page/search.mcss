@@ -1,6 +1,6 @@
 Search {
   padding: .5rem
-  border-bottom: solid 1px gainsboro
+  border-bottom: solid 1px #333
 
   header {
     h1 { 

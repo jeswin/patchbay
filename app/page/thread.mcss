@@ -1,7 +1,7 @@
 Thread {
   div.wrapper {
     header {
-      border-bottom: solid 1px gainsboro
+      border-bottom: solid 1px #333
 
       section.recipients {
         display: flex

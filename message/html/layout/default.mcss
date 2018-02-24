@@ -75,7 +75,7 @@ Message {
     margin-left: -5.5rem
     flex-basis: 118%
     pre {
-      border: 1px gainsboro solid
+      border: 1px solid #333
       padding: .8rem
       background-color: #f5f5f5
       color: #c121dc

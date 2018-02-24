@@ -1,7 +1,7 @@
 Relationships {
   header {
     margin-bottom: .8rem
-    border-bottom: 1px gainsboro solid
+    border-bottom: 1px solid #333
   }
 
   div {
