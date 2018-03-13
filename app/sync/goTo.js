@@ -34,8 +34,16 @@ exports.create = function (api) {
     api.router.async.normalise(location, (err, location) => {
       const locationId = api.app.sync.locationId(location)
 
-      if (tabs.has(locationId)) {
+      var page = tabs.get(locationId)
+      if (page) {
         tabs.select(locationId)
+
+        if (location.value) { // if there's a value it's not just a hydrated locationId
+          if (page && page.firstChild && page.firstChild.scrollDownToMessage) {
+            page.firstChild.scrollDownToMessage(location.key)
+          }
+        }
+
         api.history.sync.push(location)
 
         return true
